@@ -1,0 +1,17 @@
+name: deoldify-amd
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch-directml
+    - torchvision
+    - fastai>=2.4
+    - tensorboard
+    - opencv-python
+    - ffmpeg-python
+    - youtube-dl
+    - jupyterlab
+    - ipywidgets

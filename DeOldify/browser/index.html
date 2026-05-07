@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeOldify Browser Integration</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #007bff;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>DeOldify Browser Integration</h1>
+    <p>Run DeOldify directly in your browser using ONNX models hosted on GitHub.</p>
+
+    <a href="artistic.html">
+        <div class="card">
+            <h2>Artistic Model</h2>
+            <p>High quality, vibrant colors. (243 MB download)</p>
+        </div>
+    </a>
+
+    <a href="quantized.html">
+        <div class="card">
+            <h2>Quantized Model</h2>
+            <p>Faster, lightweight. (61 MB download)</p>
+        </div>
+    </a>
+</body>
+
+</html>

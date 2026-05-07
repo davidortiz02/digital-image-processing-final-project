@@ -1,0 +1,25 @@
+name: deoldify-legacy
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pip
+  - numpy
+  - pillow>=9.0.0
+  - requests
+  - tqdm
+  - scikit-image
+  - pip:
+    - ffmpeg-python
+    - opencv-python>=4.2.0.32
+    - yt-dlp
+    - jupyterlab
+    - ipywidgets
+    - tensorboard
