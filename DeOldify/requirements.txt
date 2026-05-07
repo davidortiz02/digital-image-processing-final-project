@@ -1,0 +1,29 @@
+# DeOldify - Modern PyTorch Implementation
+# Requirements for NVIDIA GPU (CUDA 12.x)
+
+# Core dependencies
+torch>=2.5.0
+torchvision>=0.20.0
+torchaudio>=2.5.0
+
+# Image processing
+Pillow>=9.0.0
+scikit-image
+opencv-python>=4.2.0.32
+
+# Video processing
+ffmpeg-python
+yt-dlp
+
+# Utilities
+numpy>=1.24.3
+requests>=2.31.0
+tqdm
+
+# Development and notebooks
+jupyterlab
+ipywidgets
+tensorboard
+
+# Note: For CUDA support, install PyTorch with CUDA from:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124

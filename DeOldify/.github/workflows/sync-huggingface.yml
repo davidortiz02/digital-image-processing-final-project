@@ -1,0 +1,31 @@
+name: Sync to HuggingFace
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  sync-to-huggingface:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Push to HuggingFace
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          
+          # Add HuggingFace remote with token
+          git remote add hf https://user:${HF_TOKEN}@huggingface.co/thookham/DeOldify || true
+          
+          # Push to HuggingFace
+          git push hf HEAD:main --force
+          
+          echo "✅ Successfully synced to HuggingFace: https://huggingface.co/thookham/DeOldify"

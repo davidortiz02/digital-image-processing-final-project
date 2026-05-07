@@ -1,0 +1,16 @@
+{
+    "ColorizeArtistic_gen.pth": "3f750246fa220529323b85a8905f9b49c0e5d427099185334d048fb5b5e22477",
+    "ColorizeStable_gen.pth": "ca9cd7f43fb8b222c9a70f7b292e305a000694b0ff9d2ae4a6747b1a2e1ee5af",
+    "ColorizeVideo_gen.pth": "e3d98bb6a222354c79f95485c2f078a89dc724e9183662506d9e0f5aafac83ad",
+    "ColorizeArtistic_crit.pth": "0f392b867360c0b99622f5a4b23f68208fdf4b3a4941e0644076c9fd94958bdb",
+    "ColorizeStable_crit.pth": "c9776f5d464fadcc50ab87011485a2ac65385772ac704d3af036d0b14fc3f3ea",
+    "ColorizeVideo_crit.pth": "3addd19cd18486f2a9a872f9f123b5567531101f498a73b864f3c2c61e83d21a",
+    "ColorizeArtistic_PretrainOnly_gen.pth": "c3b3ede98f9619568e19d5d33d994642ab841d883322870cf0d27b9b1d38363b",
+    "ColorizeStable_PretrainOnly_gen.pth": "aa4b3f78c107444dd57d518dc4b7cdf0e1ac48c3791c8f5c975e6b3308b6ee17",
+    "ColorizeVideo_PretrainOnly_gen.pth": "7012fed8207bef2426561a77eadf6e6fb58f19ddb4a7c128f556ef006af70238",
+    "ColorizeArtistic_PretrainOnly_crit.pth": "ba344e5e69f01dd2025a487290466f0f63225ab926503a9441e93d0d40213322",
+    "ColorizeStable_PretrainOnly_crit.pth": "ae6c8fdb652ada1f5afca8983de551094575e930a5fb9248242962000dc331bf",
+    "ColorizeVideo_PretrainOnly_crit.pth": "ae6c8fdb652ada1f5afca8983de551094575e930a5fb9248242962000dc331bf",
+    "deoldify-art.onnx": "be026e17c47c85527b3084cacad352f7ca0e021c33aa827062c5997ebe72c61f",
+    "deoldify-quant.onnx": "35c3fb7ec52122e30e98ed03fa5082b175d0beb7951d62f8bc2178870229e44a"
+}

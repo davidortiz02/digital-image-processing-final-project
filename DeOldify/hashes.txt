@@ -1,0 +1,9 @@
+--- Local File Hashes ---
+local_art.onnx: be026e17c47c85527b3084cacad352f7ca0e021c33aa827062c5997ebe72c61f
+local_quant.onnx: 35c3fb7ec52122e30e98ed03fa5082b175d0beb7951d62f8bc2178870229e44a
+
+--- External File Hashes ---
+Downloading https://huggingface.co/thookham/DeOldify-on-Browser/resolve/main/deoldify-art.onnx...
+glitch_art.onnx: be026e17c47c85527b3084cacad352f7ca0e021c33aa827062c5997ebe72c61f
+Downloading https://huggingface.co/thookham/DeOldify-on-Browser/resolve/main/deoldify-quant.onnx...
+glitch_quant.onnx: 35c3fb7ec52122e30e98ed03fa5082b175d0beb7951d62f8bc2178870229e44a

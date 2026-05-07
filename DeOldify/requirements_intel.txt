@@ -1,0 +1,29 @@
+# DeOldify - Intel GPU Support
+# Requirements for Intel Arc / Data Center GPUs
+
+# Core dependencies with Intel support
+torch==2.1.0
+torchvision==0.16.0
+intel-extension-for-pytorch==2.1.0
+
+# Image processing
+Pillow>=9.0.0
+scikit-image
+opencv-python>=4.2.0.32
+
+# Video processing
+ffmpeg-python
+yt-dlp
+
+# Utilities
+numpy
+requests
+tqdm
+
+# Development and notebooks
+jupyterlab
+ipywidgets
+tensorboard
+
+# Note: Install Intel oneAPI Base Toolkit before installing these requirements
+# See docs/intel_gpu_setup.md for detailed instructions

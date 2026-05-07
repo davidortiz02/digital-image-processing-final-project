@@ -1,0 +1,24 @@
+name: deoldify_intel
+channels:
+  - intel
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - intel-extension-for-pytorch=2.1.0
+  - oneapi=2024.0
+  - pip
+  - numpy
+  - pillow>=9.0.0
+  - requests
+  - tqdm
+  - scikit-image
+  - pip:
+    - ffmpeg-python
+    - opencv-python>=4.2.0.32
+    - yt-dlp
+    - jupyterlab
+    - ipywidgets

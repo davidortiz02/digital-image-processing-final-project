@@ -1,0 +1,16 @@
+ColorizeArtistic_crit.pth
+ColorizeArtistic_gen.pth
+ColorizeArtistic_PretrainOnly_crit.pth
+ColorizeArtistic_PretrainOnly_gen.pth
+ColorizeStable_crit.pth
+ColorizeStable_gen.pth
+ColorizeStable_PretrainOnly_crit.pth
+ColorizeStable_PretrainOnly_gen.pth.000
+ColorizeStable_PretrainOnly_gen.pth.001
+ColorizeVideo_crit.pth
+ColorizeVideo_gen.pth
+ColorizeVideo_PretrainOnly_crit.pth
+ColorizeVideo_PretrainOnly_gen.pth.000
+ColorizeVideo_PretrainOnly_gen.pth.001
+deoldify-art.onnx
+deoldify-quant.onnx

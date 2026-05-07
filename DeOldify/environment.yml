@@ -1,0 +1,25 @@
+name: deoldify
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  - pip
+  - numpy
+  - pillow>=9.0.0
+  - requests
+  - tqdm
+  - scikit-image
+  - pip:
+    - ffmpeg-python
+    - opencv-python>=4.2.0.32
+    - yt-dlp
+    - jupyterlab
+    - ipywidgets
+    - tensorboard
