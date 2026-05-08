@@ -55,9 +55,9 @@ class ResNetColorizer(nn.Module):
 
         return out
     
-def resnet50_colorizer(pretrained=False):
+def resnet50_colorizer(pretrained=True):
     model = ResNetColorizer()
     if pretrained:
-        model.load_state_dict(torch.load('models/resnet50_colorizer.pth')) #load the pretrained model, easier for us instead of having to train a model ourselves, though the option is there
+        model.load_state_dict(torch.load('colorizers/resnet50_colorizer.pth')) #load the pretrained model, easier for us instead of having to train a model ourselves, though the option is there
 
     return model
