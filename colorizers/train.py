@@ -71,7 +71,7 @@ for epoch in range(num_epochs):
 # save weights
 torch.save(
     model.state_dict(),
-    'models/resnet50_colorizer.pth'
+    'resnet50_colorizer.pth'
 )
 
 print("Training complete.")
